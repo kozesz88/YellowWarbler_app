@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFA000"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:textColor="#05051F"
+        android:textSize="46sp"
+        android:fontFamily="cursive"
+        android:text="Yellow Warbler" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_margin="8dp"
+        android:src="@drawable/yellow_warbler" />
+    <TextView
+        android:id="@+id/business"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:padding="4dp"
+        android:layout_margin="8dp"
+        android:textColor="#05051F"
+        android:background="#FFECB3"
+        android:textSize="26sp"
+        android:text="Dark Arts coffee, tasty pastries, home-made food."
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="0"
+        android:background="#FFECB3"
+        android:padding="2dp"
+        android:text="9 Northwold Rd, Cazenove, London N16 7HL"
+        android:textColor="#05051F"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:padding="4dp"
+        android:layout_margin="8dp"
+        android:textColor="#05051F"
+        android:textSize="16sp"
+        android:background="#FFECB3"
+        android:text="Mon-Fri: 08:00-16:00, Sat-Sun: 09:00-16:00"
+        />
+
+</LinearLayout>
